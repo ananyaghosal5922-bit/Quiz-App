@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#quiz-container {
+    margin-top: 20px;
+}
+.question-card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.option {
+    display: block;
+    margin: 8px 0;
+}
+.correct {
+    background-color: lightgreen;
+}
+
+.incorrect {
+    background-color: lightcoral;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.palette-btn {
+    padding: 6px 10px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.palette-correct {
+    background-color: lightgreen;
+}
+
+.palette-wrong {
+    background-color: lightcoral;
+}
